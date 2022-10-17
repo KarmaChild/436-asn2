@@ -19,11 +19,11 @@ services:
    - ./:/code
   stdin_open: true
   tty: true
-  java2:
+ java2:
   image: openjdk:latest
   container_name: java_2
   ports:
-   - "8081:80"
+   - "8081:81"
   command: ["bin/bash"]
   volumes:
    - ./:/code
