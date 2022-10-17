@@ -5,102 +5,13 @@ services:
   container_name: mono_1
   ports:
    - "8080:8080"
+  command: ["bin/bash"]
   volumes:
    - ./:/code
   stdin_open: true
   tty: true
   
-  mono2:
-  image: mono:latest
-  container_name: mono_2
-  ports:
-   - "8082:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono3:
-  image: mono:latest
-  container_name: mono_3
-  ports:
-   - "8083:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono4:
-  image: mono:latest
-  container_name: mono_4
-  ports:
-   - "8084:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono5:
-  image: mono:latest
-  container_name: mono_5
-  ports:
-   - "8085:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono6:
-  image: mono:latest
-  container_name: mono_6
-  ports:
-   - "8086:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono7:
-  image: mono:latest
-  container_name: mono_7
-  ports:
-   - "8087:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono8:
-  image: mono:latest
-  container_name: mono_8
-  ports:
-   - "8088:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono9:
-  image: mono:latest
-  container_name: mono_9
-  ports:
-   - "8089:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
-  mono10:
-  image: mono:latest
-  container_name: mono_10
-  ports:
-   - "8090:8080"
-  volumes:
-   - ./:/code
-  stdin_open: true
-  tty: true
-  
- java:
+   java:
   image: openjdk:latest
   container_name: java_1
   ports:
@@ -110,4 +21,104 @@ services:
    - ./:/code
   stdin_open: true
   tty: true
+  
+  java2:
+  image: mono:latest
+  container_name: java_2
+  ports:
+   - "8082:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java3:
+  image: mono:latest
+  container_name: java_3
+  ports:
+   - "8083:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java4:
+  image: mono:latest
+  container_name: java_4
+  ports:
+   - "8084:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java5:
+  image: mono:latest
+  container_name: java_5
+  ports:
+   - "8085:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java6:
+  image: mono:latest
+  container_name: java_6
+  ports:
+   - "8086:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java7:
+  image: mono:latest
+  container_name: java_7
+  ports:
+   - "8087:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java8:
+  image: mono:latest
+  container_name: java_8
+  ports:
+   - "8088:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java9:
+  image: mono:latest
+  container_name: java_9
+  ports:
+   - "8089:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+  
+  java10:
+  image: mono:latest
+  container_name: java_10
+  ports:
+   - "8090:8080"
+  command: ["bin/bash"]
+  volumes:
+   - ./:/code
+  stdin_open: true
+  tty: true
+ 
   
