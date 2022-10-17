@@ -11,7 +11,7 @@ services:
   stdin_open: true
   tty: true
   
-  java:
+ java:
   image: openjdk:latest
   container_name: java_1
   ports:
@@ -33,7 +33,7 @@ services:
   stdin_open: true
   tty: true
   
-  java3:
+ java3:
   image: openjdk:latest
   container_name: java_3
   ports:
@@ -44,7 +44,7 @@ services:
   stdin_open: true
   tty: true
   
-  java4:
+ java4:
   image: openjdk:latest
   container_name: java_4
   ports:
@@ -55,7 +55,7 @@ services:
   stdin_open: true
   tty: true
   
-  java5:
+ java5:
   image: openjdk:latest
   container_name: java_5
   ports:
@@ -66,7 +66,7 @@ services:
   stdin_open: true
   tty: true
   
-  java6:
+ java6:
   image: openjdk:latest
   container_name: java_6
   ports:
@@ -77,7 +77,7 @@ services:
   stdin_open: true
   tty: true
   
-  java7:
+ java7:
   image: openjdk:latest
   container_name: java_7
   ports:
@@ -88,7 +88,7 @@ services:
   stdin_open: true
   tty: true
   
-  java8:
+ java8:
   image: openjdk:latest
   container_name: java_8
   ports:
@@ -99,7 +99,7 @@ services:
   stdin_open: true
   tty: true
   
-  java9:
+ java9:
   image: openjdk:latest
   container_name: java_9
   ports:
@@ -110,7 +110,7 @@ services:
   stdin_open: true
   tty: true
   
-  java10:
+ java10:
   image: openjdk:latest
   container_name: java_10
   ports:
