@@ -23,7 +23,7 @@ services:
   image: openjdk:latest
   container_name: java_2
   ports:
-   - "8081:81"
+   - "8082:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
