@@ -26,7 +26,7 @@ services:
   image: openjdk:latest
   container_name: java_2
   ports:
-   - "8082:8080"
+   - "8082:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -37,7 +37,7 @@ services:
   image: openjdk:latest
   container_name: java_3
   ports:
-   - "8083:8080"
+   - "8083:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -48,7 +48,7 @@ services:
   image: openjdk:latest
   container_name: java_4
   ports:
-   - "8084:8080"
+   - "8084:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -59,7 +59,7 @@ services:
   image: openjdk:latest
   container_name: java_5
   ports:
-   - "8085:8080"
+   - "8085:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -70,7 +70,7 @@ services:
   image: openjdk:latest
   container_name: java_6
   ports:
-   - "8086:8080"
+   - "8086:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -81,7 +81,7 @@ services:
   image: openjdk:latest
   container_name: java_7
   ports:
-   - "8087:8080"
+   - "8087:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -92,7 +92,7 @@ services:
   image: openjdk:latest
   container_name: java_8
   ports:
-   - "8088:8080"
+   - "8088:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -103,7 +103,7 @@ services:
   image: openjdk:latest
   container_name: java_9
   ports:
-   - "8089:8080"
+   - "8089:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
@@ -114,7 +114,7 @@ services:
   image: openjdk:latest
   container_name: java_10
   ports:
-   - "8090:8080"
+   - "8090:80"
   command: ["bin/bash"]
   volumes:
    - ./:/code
