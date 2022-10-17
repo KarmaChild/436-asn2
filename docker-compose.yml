@@ -11,7 +11,7 @@ services:
   stdin_open: true
   tty: true
   
-   java:
+  java:
   image: openjdk:latest
   container_name: java_1
   ports:
@@ -22,8 +22,8 @@ services:
   stdin_open: true
   tty: true
   
-  java2:
-  image: mono:latest
+ java2:
+  image: openjdk:latest
   container_name: java_2
   ports:
    - "8082:8080"
@@ -34,7 +34,7 @@ services:
   tty: true
   
   java3:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_3
   ports:
    - "8083:8080"
@@ -45,7 +45,7 @@ services:
   tty: true
   
   java4:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_4
   ports:
    - "8084:8080"
@@ -56,7 +56,7 @@ services:
   tty: true
   
   java5:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_5
   ports:
    - "8085:8080"
@@ -67,7 +67,7 @@ services:
   tty: true
   
   java6:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_6
   ports:
    - "8086:8080"
@@ -78,7 +78,7 @@ services:
   tty: true
   
   java7:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_7
   ports:
    - "8087:8080"
@@ -89,7 +89,7 @@ services:
   tty: true
   
   java8:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_8
   ports:
    - "8088:8080"
@@ -100,7 +100,7 @@ services:
   tty: true
   
   java9:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_9
   ports:
    - "8089:8080"
@@ -111,7 +111,7 @@ services:
   tty: true
   
   java10:
-  image: mono:latest
+  image: openjdk:latest
   container_name: java_10
   ports:
    - "8090:8080"
